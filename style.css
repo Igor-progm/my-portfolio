@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 li{
@@ -21,7 +21,8 @@ button{
 }
 
 body {
-    background-color: rgb(247, 247, 247);
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #fff;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -42,6 +43,22 @@ header {
 
 .nav-bar{
     padding-right: 60px;
+}
+
+.btn-download-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 35%;
+    background-color: #eb4034;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-download-cv:hover {
+    background-color: #45a049;
 }
 
 .nav-menu{
@@ -90,7 +107,7 @@ header {
 }
 
 .nav-bar a:hover {
-    color: rgb(4, 4, 153);
+    color: #eb4034;
 }
 
 .welcome-container{
@@ -140,7 +157,6 @@ header {
     width: 100%;
     height: 500px;
     padding-bottom: 30px;
-    background-color: #fff;
 }
 
 .sobre-mim-title{
@@ -151,8 +167,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 40px;
+    column-gap: 100px;
     margin: 0 60px;
+}
+
+.developer-text{
+    color: #eb4034;
 }
 
 .sobre-mim-img{
@@ -164,7 +184,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 20px;
+    row-gap: 20px;  
 }
 
 .sobre-mim-ability-container{
@@ -222,7 +242,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 520px;
+    height: 580px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
@@ -245,7 +265,7 @@ header {
 }
 
 .project-techs span{
-    background-color: lightskyblue;
+    background-color: #eb4034;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -259,7 +279,6 @@ header {
     width: 100%;
     height: 380px;
     row-gap: 30px;
-    background-color: #fff;
 }
 
 .contato-title-container{
@@ -274,18 +293,18 @@ header {
 
 .contato-content{
     display: flex;
-    justify-content: center;
-    column-gap: 50px;
+    column-gap: 30px;
 }
 
 .contato-content i{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color: darkgray;
+    margin-top: 10px;
 }
 
 .contato-content button{
     cursor: pointer;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .email{
@@ -317,7 +336,7 @@ header {
 }
 
 #github{
-    color: #171515;
+    color: #4078c0;
 }
 
 #github:hover{
