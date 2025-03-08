@@ -17,6 +17,20 @@
         
         height: 235px;
     }
+
+    .btn-download-cv{
+        width: 50%;
+    }
+
+    .habilidades-container{
+        height: 550px;
+    }
+
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+    }
 }
 
 @media(max-width: 1081px){
