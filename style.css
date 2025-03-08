@@ -271,24 +271,45 @@ header {
     border-radius: 10px;
 }
 
-.contato-container{
+.habilidades-container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     height: 380px;
-    row-gap: 30px;
+    row-gap: 70px;
 }
 
-.contato-title-container{
+.habilidades-title-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contato-title{
+.habilidades-title{
     font-size: 2.5rem;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+}
+
+.emblem{
+    width: 250px;
+    height: 160px;
+}
+
+.html-emblem{
+    width: 230px;
+    height: 160px;
+}
+
+.js-emblem{
+    width: 200px;
+    height: 180px;
+    margin: 0 25px;
 }
 
 .contato-content{
