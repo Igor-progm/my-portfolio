@@ -192,9 +192,36 @@
 }
 
 @media(max-width: 500px){
-    .welcome-container{
+    header{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .sobre-mim-content{
         text-align: center;
-        padding: 10px;
+    }
+
+    .img-container{
+        margin-top: 30px;
+    }
+
+    .project-1{
+        height: 580px;
+    }
+
+    .project-gif{
+        height: 40%;
+    }
+
+    .skills{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    .habilidades-container{
+        min-height: 120vh;
+        margin: 100px 0 50px;
+        row-gap: 50px;
     }
 }
 
